@@ -27,12 +27,3 @@ export const NAV_ITEMS = {
         title: 'Donations'
     }
 }
-
-export const PHOTOS = {
-    photo01: './assets/_MG_5084-dt.jpg',
-    photo02: './assets/_MG_7774-dt.jpg',
-    photo03: './assets/_MG_7827-dt.jpg',
-    photo04: './assets/_MG_8352-dt.jpg',
-    photo05: './assets/_MG_8383-dt.jpg',
-    photo06: './assets/_MG_7827-dt.jpg'
-}

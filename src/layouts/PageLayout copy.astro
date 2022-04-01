@@ -16,11 +16,10 @@ const { content } = Astro.props
 <body>
 	<div id="wrapper">
 		<header>
-			<div class="flex">
-				<a href="/"><img src="../../logo.png" alt="logo" class="h-12 cover"></a>
-				<h1 class="text-left">Tirop's Angels</h1>
-			</div>
 		<nav>
+			<div>
+				<h1><a href="/"><img src="../../logo.png" alt="logo" class="h-12 float-left">Tirop's Angels</a></h1>
+			</div>
 			<div id="photo" style={content.photo}>
 			<ul>
 			{

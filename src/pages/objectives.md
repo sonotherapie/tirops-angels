@@ -1,7 +1,7 @@
 ---
 layout: ../components/articleComponent.astro
 title: Objectives
-photo: "background-image: url('/assets/_MG_5084-dt.jpg');"
+photo: "background-image: url('/assets/_MG_5087-dt.jpg');"
 ---
 - Preventing violence against women and girls by empowering women and girls, especially those who are at risk of violence – including adolescent girls and indigenous or ethnic minority women – and engaging strategic groups such as youth, men and boys, and traditional and faith-based leaders in prevention efforts.
 - Expanding access to services available to survivors, including legal assistance, psychosocial counselling, health care and other support services; and building the capacity of service providers to respond effectively to the needs of women and girls affected by violence

@@ -1,7 +1,7 @@
 ---
 layout: ../components/articleComponent.astro
 title: Recent Achievements
-photo: "background-image: url('/assets/_MG_7827-dt.jpg');"
+photo: "background-image: url('/assets/_MG_7892-dt.jpg');"
 ---
 - 11 Feb 2022 - Official partner of the Agnes Tirop Memorial World Cross Country Tour.
 - 12 Feb 2022 - Workshop on GBV at Agnes Tirop Memorial, two sessions with thirty U20 and U18 girls.

@@ -10,4 +10,5 @@ Tirop Angels Trust (known as Tirop's Angels) is an organisation founded by Kenya
 
 **Notable members (athletes), as of today**: Abel Kipchumba, Amos Kipruto, Lawrence Cherono, Julien Wanders, Brenda Jepleting, Caroline Chepkwony and Peres Jepchirchir.
 
-{frontmatter.photo}
+* premier
+* deuxième
