@@ -33,5 +33,5 @@ export const PHOTOS = {
     photo03: './assets/_MG_7827-dt.jpg',
     photo04: './assets/_MG_8352-dt.jpg',
     photo05: './assets/_MG_8383-dt.jpg',
-    photo06: './../public/assets/_MG_7827-dt.jpg'
+    photo06: './assets/_MG_7827-dt.jpg'
 }
