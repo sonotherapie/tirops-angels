@@ -1,0 +1,68 @@
+---
+import {SITE} from '../config.ts'
+import {NAV_ITEMS} from '../config.ts'
+import {PHOTOS} from '../config.ts'
+import '../styles/global.css'
+const { content } = Astro.props
+---
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{content.title} | {SITE.title}</title>
+	<meta name="description" content={SITE.description}>
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+		<nav>
+			<div>
+				<h1><a href="/"><img src="../../logo.png" alt="logo" class="h-12 float-left">Tirop's Angels</a></h1>
+			</div>
+		
+			<ul>
+			{
+				Object.keys(NAV_ITEMS).map(navItemKey => <li>
+				<a href={NAV_ITEMS[navItemKey].path}>{NAV_ITEMS[navItemKey].title}</a></li>)
+			}
+			</ul>
+		</nav>
+		</header>
+		<main>
+				<slot />
+		</main>
+		<footer class="bg-slate-100">
+			<p>{SITE.footer}</p>
+		</footer>
+	</div>
+</body>
+</html>
+
+<style>
+h1 {
+	@apply font-bold text-2xl
+}
+#wrapper {
+	@apply max-w-4xl mx-auto
+}
+header {
+        background-image: url("../../public/assets/_MG_7774-dt.jpg");
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+nav {
+        @apply bg-white/90
+}
+nav ul {
+	@apply flex
+}
+nav li {
+	@apply p-4
+}
+main {
+	
+}
+</style>

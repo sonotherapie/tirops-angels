@@ -1,0 +1,17 @@
+---
+import PageLayout from '../layouts/PageLayout.astro'
+const data = Astro.fetchContent('../pages/plan/*.md')
+const { content } = Astro.props
+---
+<PageLayout content={content}>
+			<section>
+                <h2>{content.title}</h2>
+				<slot />
+			</section>
+			<aside>
+				<ul>{data.map((post) => (
+					<li><a href={post.url}>{post.title}</a></li>
+				))}
+				</ul>
+			</aside>
+</PageLayout>

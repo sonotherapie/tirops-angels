@@ -1,0 +1,43 @@
+* {
+    margin: 2px;
+    padding: 2px;
+}
+
+nav li {
+    display: inline;
+}
+
+#wrapper {
+    border: 1px solid black;
+}
+
+header {
+    border: 1px dashed red;
+}
+
+nav {
+    border: 1px dashed green;
+}
+
+main {
+    border: 1px solid blue;
+    display: flex;
+}
+
+section {
+    border: 1px dashed gold;
+    flex: 2;
+}
+
+aside {
+    border: 1px dashed lightskyblue;
+    flex: 1;
+}
+
+aside li {
+    display: block;
+}
+
+footer {
+    border: 1px dashed magenta;
+}
