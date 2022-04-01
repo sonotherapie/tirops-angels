@@ -1,7 +1,7 @@
 ---
 layout: ../components/articleComponent.astro
 title: Donations
-photo: './assets/_MG_7827-dt.jpg'
+photo: "background-image: url('/assets/_MG_7774-dt.jpg');"
 ---
 
 Swift Code. KCBLKENX

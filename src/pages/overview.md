@@ -2,7 +2,7 @@
 layout: ../components/articleComponent.astro
 title: Overview
 description: Page Description
-photo: './assets/_MG_7774-dt.jpg)'
+photo: "background-image: url('/assets/_MG_8352-dt.jpg');"
 ---
 Tirop Angels Trust (known as Tirop's Angels) is an organisation founded by Kenyan athletes and the late Agnes Jebet Tirop's family, standing in unity against gender-based violence.
 
