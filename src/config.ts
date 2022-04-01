@@ -1,6 +1,6 @@
 export const SITE = {
     title: "Tirop's Angels",
-    description: 'The strict minimum for a wireframe template',
+    description: 'Tirop Angels Trust is an organisation standing in unity against gender-based violence.',
     footer: "© 2022 Tirop's Angels Copyright",
     directory: '/astro'
 }

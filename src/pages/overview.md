@@ -9,6 +9,3 @@ Tirop Angels Trust (known as Tirop's Angels) is an organisation founded by Kenya
 **Board members**: Carolyne Jepkosgei (athlete), Joan Chelimo (athlete), Joan Jepkorir (teacher), Mary Keitany (retired athlete), Viola Cheptoo (athlete, Chairperson) and Vincent Tirop (Agnes Tirop’s father).
 
 **Notable members (athletes), as of today**: Abel Kipchumba, Amos Kipruto, Lawrence Cherono, Julien Wanders, Brenda Jepleting, Caroline Chepkwony and Peres Jepchirchir.
-
-* premier
-* deuxième
