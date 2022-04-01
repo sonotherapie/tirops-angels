@@ -1,7 +1,8 @@
 export const SITE = {
     title: "Tirop's Angels",
     description: 'The strict minimum for a wireframe template',
-    footer: "© 2022 Tirop's Angels"
+    footer: "© 2022 Tirop's Angels",
+    directory: '/astro'
 }
 
 export const NAV_ITEMS = {
