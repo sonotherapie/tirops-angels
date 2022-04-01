@@ -1,12 +1,15 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro'
+import { Markdown } from 'astro/components'
 const data = Astro.fetchContent('../pages/plan/*.md')
 const { content } = Astro.props
 ---
 <PageLayout content={content}>
 			<section>
                 <h2>{content.title}</h2>
+				<Markdown>
 				<slot />
+				</Markdown>
 			</section>
 			<aside>
 				<ul>{data.map((post) => (
@@ -15,3 +18,9 @@ const { content } = Astro.props
 				</ul>
 			</aside>
 </PageLayout>
+
+<style>
+    section {
+		@apply prose
+    }
+</style>
