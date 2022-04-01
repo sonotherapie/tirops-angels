@@ -1,8 +1,7 @@
 export const SITE = {
     title: "Tirop's Angels",
-    description: 'Tirop Angels Trust is an organisation standing in unity against gender-based violence.',
-    footer: "© 2022 Tirop's Angels Copyright",
-    directory: '/astro'
+    description: "Tirop Angels Trust is an organisation standing in unity against gender-based violence.",
+    footer: "© 2022 Tirop's Angels Copyright"
 }
 
 export const NAV_ITEMS = {
