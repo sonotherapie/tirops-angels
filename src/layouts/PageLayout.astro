@@ -1,7 +1,6 @@
 ---
 import {SITE} from '../config.ts'
-import {NAV_ITEMS} from '../config.ts'
-import {PHOTOS} from '../config.ts'
+import MainNav from '../components/mainNav.astro'
 import '../styles/global.css'
 const { content } = Astro.props
 ---
@@ -16,20 +15,13 @@ const { content } = Astro.props
 <body>
 	<div id="wrapper">
 		<header>
-			<div class="flex">
+			<div id="siteTitle" class="flex">
 				<a href="/"><img src="../../logo.png" alt="logo" class="h-12 cover"></a>
 				<h1 class="text-left">Tirop's Angels</h1>
 			</div>
-		<nav>
 			<div id="photo" style={content.photo}>
-			<ul>
-			{
-				Object.keys(NAV_ITEMS).map(navItemKey => <li>
-				<a href={NAV_ITEMS[navItemKey].path}>{NAV_ITEMS[navItemKey].title}</a></li>)
-			}
-			</ul>
+				<MainNav content={content} />
 			</div>
-		</nav>
 		</header>
 		<main>
 				<slot />
@@ -45,26 +37,17 @@ const { content } = Astro.props
 body {
 	@apply bg-slate-100
 }
-h1 {
+#wrapper {
+	@apply max-w-7xl md:w-5/6 mx-auto bg-white flex flex-col min-h-screen
+}
+header {
+	@apply h-96
+}
+#siteTitle h1 {
 	@apply font-bold text-2xl
 }
-#wrapper {
-	@apply max-w-4xl mx-auto bg-white flex flex-col min-h-screen
-}
 #photo {
-        height: 400px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-}
-nav div {
-	@apply bg-gray-50 h-12
-}
-nav ul {
-	@apply flex bg-white/60 text-xs md:text-lg
-}
-nav li {
-	@apply p-2 hover:bg-blue-400 hover:text-white md:p-4 mx-auto
+	@apply h-full bg-cover bg-center bg-top
 }
 main {
 	@apply p-12 flex-grow flex flex-col md:flex-row

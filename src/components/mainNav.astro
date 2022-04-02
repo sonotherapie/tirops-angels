@@ -1,0 +1,29 @@
+---
+import {NAV_ITEMS} from '../config.ts'
+const { content } = Astro.props
+---
+        <nav>
+			<div>
+			<ul>
+			{
+				Object.keys(NAV_ITEMS).map(navItemKey => <li>
+				<a href={NAV_ITEMS[navItemKey].path}>{NAV_ITEMS[navItemKey].title}</a></li>)
+			}
+			</ul>
+			</div>
+		</nav>
+
+<style>
+#photo {
+    
+}
+nav div {
+	@apply bg-gray-50 h-12
+}
+nav ul {
+	@apply flex bg-white/60 text-xs md:text-lg
+}
+nav li {
+	@apply p-2 hover:bg-blue-400 hover:text-white md:p-4 mx-auto
+}
+</style>
