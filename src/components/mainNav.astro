@@ -18,10 +18,13 @@ const { content } = Astro.props
 	nav {
 		@apply h-96 bg-cover bg-center bg-top
 	}
-	nav ul {
+	ul {
 		@apply flex bg-white/70 text-xs md:text-lg
 	}
-	nav li {
+	li {
 		@apply grow p-2 md:p-4 hover:bg-sky-300 hover:text-white mx-auto text-center
+	}
+	a {
+		@apply block
 	}
 </style>
