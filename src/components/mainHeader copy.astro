@@ -1,0 +1,25 @@
+---
+import MainNav from '../components/mainNav.astro'
+const { content } = Astro.props
+---
+        <header>
+			<div id="siteTitle" class="flex">
+				<a href="/"><img src="../../logo.png" alt="logo" class="h-12 cover"></a>
+				<h1 class="text-left">Tirop's Angels</h1>
+			</div>
+			<div id="photo" style={content.photo}>
+				<MainNav content={content} />
+			</div>
+		</header>
+
+<style>
+header {
+	@apply h-96
+}
+#siteTitle h1 {
+	@apply font-bold text-2xl
+}
+#photo {
+	@apply h-full bg-cover bg-center bg-top
+}
+</style>
